@@ -1,0 +1,30 @@
+{
+  "name": "flexmixins",
+  "version": "1.0.0",
+  "description": "a small lib to help the css flexbox module use",
+  "main": "",
+  "dependencies": {},
+  "devDependencies": {
+    "bower": "^1.5.3",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tegraoss/flexmixins.git"
+  },
+  "keywords": [
+    "flexbox",
+    "sass",
+    "less"
+  ],
+  "author": "tegraoss",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/tegraoss/flexmixins/issues"
+  },
+  "homepage": "https://github.com/tegraoss/flexmixins#readme"
+}

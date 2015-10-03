@@ -1,0 +1,18 @@
+{
+  "name": "flexmixins",
+  "version": "1.0.0",
+  "homepage": "https://github.com/tegraoss/flexmixins",
+  "authors": [
+    "tegraoss"
+  ],
+  "description": "a small lib to help the css flexbox module use",
+  "keywords": [
+    "flexbox",
+    "sass",
+    "less"
+  ],
+  "license": "GPL-3.0",
+  "ignore": [
+    "node_modules",
+  ]
+}
