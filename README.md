@@ -4,7 +4,7 @@ to your project, wether it uses SASS or LESS.
 
 ## Get Started
 Just ```bower fleximixins``` and get your **flexmixins** partial file from ```dist/```
-folder accordingly with your project CSS preprocessor.
+folder accordingly to your project CSS preprocessor.
 
 ## About The Flexbox Module
 The flexbox module is an official CSS3 module for layouting. Is easier, quickier
