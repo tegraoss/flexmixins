@@ -1,7 +1,7 @@
 {
   "name": "flexmixins",
   "version": "1.0.0",
-  "description": "a small lib to help the css flexbox module use",
+  "description": "a small lib of mixins to help the css flexbox module use",
   "main": "",
   "dependencies": {},
   "devDependencies": {
