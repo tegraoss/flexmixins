@@ -1,0 +1,101 @@
+@mixin display-flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+@mixin flex($value) {
+    -webkit-box-flex: $value;
+    -webkit-flex: $value;
+       -moz-box-flex: $value;
+        -ms-flex: $value;
+            flex: $value;
+}
+
+@mixin flex-auto {
+    -webkit-box-flex: 1;
+    -webkit-flex: auto;
+       -moz-box-flex: 1;
+        -ms-flex: auto;
+            flex: auto;
+}
+
+@mixin align-content($value) {
+    -webkit-align-content: $value;
+        -ms-flex-line-pack: $value;
+            align-content: $value;
+}
+
+@mixin align-items($value) {
+    -webkit-box-align: $value;
+    -webkit-align-items: $value;
+       -moz-box-align: $value;
+        -ms-flex-align: $value;
+            align-items: $value;
+}
+
+@mixin align-self($value) {
+    -webkit-align-self: $value;
+        -ms-flex-item-align: $value;
+            align-self: $value;
+}
+
+@mixin justify-content($value) {
+    -webkit-box-pack: $value;
+    -webkit-justify-content: $value;
+       -moz-box-pack: $value;
+        -ms-flex-pack: $value;
+            justify-content: $value;
+}
+
+@mixin order($value) {
+    -webkit-box-ordinal-group: NaN;
+    -webkit-order: $value;
+       -moz-box-ordinal-group: NaN;
+        -ms-flex-order: $value;
+            order: $value;
+}
+
+@mixin flex-basis($value) {
+    -webkit-flex-basis: $value;
+        -ms-flex-preferred-size: $value;
+            flex-basis: $value;
+}
+
+@mixin flex-direction($value) {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: $value;
+       -moz-box-orient: vertical;
+       -moz-box-direction: normal;
+        -ms-flex-direction: $value;
+            flex-direction: $value;
+}
+
+@mixin flex-flow($value) {
+    -webkit-flex-flow: $value;
+        -ms-flex-flow: $value;
+            flex-flow: $value;
+}
+
+@mixin flex-grow($value) {
+    -webkit-box-flex: $value;
+    -webkit-flex-grow: $value;
+       -moz-box-flex: $value;
+        -ms-flex-positive: $value;
+            flex-grow: $value;
+}
+
+@mixin flex-shrink($value) {
+    -webkit-flex-shrink: $value;
+        -ms-flex-negative: $value;
+            flex-shrink: $value;
+}
+
+@mixin flex-wrap($value) {
+    -webkit-flex-wrap: $value;
+        -ms-flex-wrap: $value;
+            flex-wrap: $value;
+}
