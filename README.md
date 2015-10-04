@@ -1,4 +1,4 @@
-# Flexixins
+# Flexmixins
 A small lib for easily incorporate the awesome CSS flexbox module
 to your project, wether it uses SASS or LESS.
 
