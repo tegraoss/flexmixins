@@ -1,17 +1,19 @@
 {
   "name": "flexmixins",
-  "version": "1.0.0",
+  "version": "1.0",
   "homepage": "https://github.com/tegraoss/flexmixins",
   "authors": [
     "tegraoss"
+    "Felipe Bernardes <bernardes.flp@gmail.com>",
+    "Caio Carrara <caiocarrara@gmail.com>"
   ],
-  "description": "a small lib to help the css flexbox module use",
+  "description": "a small lib of mixins to help the css flexbox module use",
+  "main": "_flexmixins.scss",
   "keywords": [
     "flexbox",
-    "sass",
-    "less"
+    "mixins"
   ],
-  "license": "GPL-3.0",
+  "license": "GPL-2.0",
   "ignore": [
     "node_modules",
   ]
